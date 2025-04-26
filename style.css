@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(170, 255, 121), rgb(242, 255, 145));
+}
+header {
+    background-image: linear-gradient(rgb(94, 255, 0), rgb(225, 255, 0));
+    height: 100px;
+}
+header a {
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color:white ;
+    padding: 5px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    box-shadow: 10px 10px 0 0 black;
+}
+header a:hover {
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+}
+h1 {
+    color: chartreuse;
+    text-shadow: 0px 0px 10px black;
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 140, 0);
+    text-shadow: 0px 0px 10px black;
+}
+a:hover {
+    color: black;
+}
+
